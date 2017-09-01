@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'scale_me.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'mysql.connector.django',
+        'ENGINE': 'django.db.backends.mysql',
         'HOST':'db',
         'USER':'www',
         'PASSWORD':'$3cureUS',
