@@ -20,5 +20,6 @@ from . import home
 urlpatterns = [
 #    url(r'^hello_world/', include('hello_world.urls')),
     url(r'^$', home.index, name='index'),
+    url(r'^api/', include('api.urls')),
     url(r'^admin/', admin.site.urls),
 ]
